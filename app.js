@@ -36,9 +36,9 @@ mobileLink.addEventListener("click", function(){
     const menuBars = document.querySelector(".is-active");
     if(window.innerWidth <= 768 && menuBars) {
         mobile.classList.toggle("is-active");
-        mobileLink.classList.remove(active);
+        mobileLink.classList.remove("active");
     }
-});
+})
 
 // swiper
 var swiper = new Swiper(".mySwiper",
