@@ -612,4 +612,9 @@ footer {
     .header-title {
         font-size: 38px;
     }
+
+    .job-label {
+        display: none;
+        
+    }
 }
