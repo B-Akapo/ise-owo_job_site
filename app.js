@@ -38,7 +38,7 @@ mobileLink.addEventListener("click", function(){
         mobile.classList.toggle("is-active");
         mobileLink.classList.remove("active");
     }
-})
+});
 
 // swiper
 var swiper = new Swiper(".mySwiper",
