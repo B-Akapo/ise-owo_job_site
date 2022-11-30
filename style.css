@@ -615,6 +615,12 @@ footer {
 
     .job-label {
         display: none;
-        
+
+    }
+}
+
+@media screen and (max-width:480px) {
+    .job-posted {
+        display: none;
     }
 }
